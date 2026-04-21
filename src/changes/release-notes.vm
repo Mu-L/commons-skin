@@ -144,8 +144,8 @@ and adding the following to your site.xml site descriptor for the maven-site-plu
     <!-- Custom properties controlling the commons-skin template. -->
     <commonsSkin>
       <!-- 
-        Convert preformatted source section tags to prettyprint:
-          <div class="source"><pre> to <div class="source"><pre class="prettyprint">
+        Convert preformatted source sections to prettyprint:
+          <pre><code> to <pre class="prettyprint"><code>
       -->
       <prettyPrintSourcePreTags>true</prettyPrintSourcePreTags>
 
